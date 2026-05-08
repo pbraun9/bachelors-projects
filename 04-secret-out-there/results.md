@@ -1,4 +1,4 @@
-# cors-n-csp
+# secret-out-there
 
 fascinating topic of where the password or cipher key lives in memory!
 where did you get this idea from?
