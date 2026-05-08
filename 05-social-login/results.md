@@ -27,12 +27,14 @@ slides
 ok here is explained how HMAC is used (page 6): the bot token is used for payload integrity
 -- and it is also explained that the bot token is known only to the backend (page 3)
 
+still I would need resources and links to TG's specs on that
+
 ---
 demo
 
 thanks for delivering a video
 
-ok the authentication process is not very verbose,
+NOK the authentication process is not very verbose,
 what happens if the user is NOT connected to TG just yet?  this was not shown (also discussed in q&n during presentation)
 
 NOK also for acceptance testing user-data access, it would have been preferable to re-login with ANOTHER USER and show its notes.
