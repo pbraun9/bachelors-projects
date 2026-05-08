@@ -21,5 +21,16 @@ fetch secrets, and inject them int pods during deployment is also fine.
 my opinion is that is complicates the infra a bit (additional sidecar containers),
 but all good, what you did is considered best practice.
 
-good job overall, congrats
+good job overall, congrats, however,
+
+NOK it's not clear who did what.
+that was not specified in the report.
+this looks like a one person (or two? or three?) work in a 5 member team.
+
+NOK you didnt consider nor mention any alternative to vault agent injector architecture.
+here are some:
+
+1. talk to the vault during ci/cd (and that include command line usage, you can emulate ci/cd as a pre-flight)
+2. let the app talk to the vault (that's the most secure case as secrets do not need to be stored in clear-text within the container)
+3. https://external-secrets.io/latest/
 
